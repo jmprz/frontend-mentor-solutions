@@ -23,12 +23,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 16px 16px 0px 16px;
 }
 
 .qr-image{
     width: 288px;
     height: 288px;
-    padding: 16px 16px 0px 16px;
     border-radius: 10px;
 }
 
