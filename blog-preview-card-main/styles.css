@@ -70,6 +70,7 @@ body{
 .paragraph{
     font-weight: 500;
     color: hsl(0, 0%, 42%);
+    font-size: 16px;
 }
 
 .container-avatar{
