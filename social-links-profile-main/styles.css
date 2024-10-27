@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey700: hsl(0, 0%, 20%);
+    --grey800: hsl(0, 0%, 12%);
+    --grey900: hsl(0, 0%, 8%);
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Inter';
+    background-color: var(--grey900);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: var(--grey800);
+    padding: 3rem;
+    border-radius: 0.8rem;
+    width: 22rem;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.name{
+    color: var(--white);
+    margin-bottom: 0.2rem;
+    font-weight: 700;
+}
+
+.location{
+    color: var(--green);
+    font-weight: 600;
+    margin: 0.7rem 0 2rem 0;
+    font-size: 0.9rem;
+}
+
+.bio{
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.links{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 0.6rem;
+    border: none;
+    color: var(--white);
+    background-color: var(--grey700);
+    padding: 1rem;
+    margin: 0.4rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: var(--white);
+    color: var(--grey900);
+    cursor: pointer;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 20px;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+    font-size: 0.9rem;
+    color: var(--white);
+}
